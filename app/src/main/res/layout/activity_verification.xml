@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/verification"
+    tools:context=".Verification">
+
+    <EditText
+        android:id="@+id/edtcode"
+        android:layout_width="287dp"
+        android:layout_height="85dp"
+        android:background="#579989"
+        android:ems="10"
+        android:hint="Enter code here:"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/material_dynamic_neutral95"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="226dp"
+        android:layout_height="78dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="Verify code"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <Button
+        android:id="@+id/resend"
+        android:layout_width="226dp"
+        android:layout_height="78dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="Resend code"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
